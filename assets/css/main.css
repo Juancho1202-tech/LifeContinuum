@@ -49,6 +49,17 @@ body {
   font-family: var(--default-font);
 }
 
+
+#Inicio{
+  background-color: #464623;
+  
+}
+#Inicio:hover{
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
+
 a {
   color: var(--accent-color);
   text-decoration: none;
